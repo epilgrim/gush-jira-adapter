@@ -136,7 +136,7 @@ class JiraIssueTracker extends BaseIssueTracker
      */
     public function getIssueUrl($id)
     {
-        return sprintf('%s/issue/%d', $this->url, $id);
+        return sprintf('%s/issue/%s', $this->url, $id);
     }
 
     /**
